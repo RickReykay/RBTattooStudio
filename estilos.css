@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 3px;
+    background-color: #666362;
+    color: white;
+  }
+  #nombre-negocio {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-bottom: 2px solid white;
+    align-items: center;
+  }
+  #ubicacion {
+    margin-top: 20px;
+  }
+  #palabras-clave {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/portada3_2.jpg);
+    color: white;
+  }
+  #ventajas-competidores {
+    margin-top: 20px;
+    height: 40px;
+    background-color: silver;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    display:flex;
+    flex:1;
+    align-items: center;
+  }
+  #titulo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  #trabajos-realizados {
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #000;
+    align-items: center;
+  }
+  #preguntas-frecuentes {
+    margin-top: 20px;
+    max-width: 75%;
+    padding-left: 10%;
+    padding-bottom: 10px;
+  }
+.nombre{
+  flex:1;
+  color: gold;
+}
+.instagram {
+    width: 50px;
+}
+.facebook{
+    width: 50px;
+}
+.whatsapp {
+    width: 50px;
+}
+.p1 {
+    padding-top: 80px;
+    padding-left: 5px;
+    width: 45%;
+}
+.p {
+  width: 33%;
+  text-align: center;
+  color: black;
+}
+.logo {
+  flex: 1;
+  padding-left: 18%;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.contenedor {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 66.55%; /* Tamaño constante para cada imagen */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+.fin {
+  width: 10%;
+  padding-left: 40%;
+  padding-bottom: 10px;
+}
